@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include mycfopoc *.css
+recursive-include mycfopoc *.csv
+recursive-include mycfopoc *.html
+recursive-include mycfopoc *.ico
+recursive-include mycfopoc *.js
+recursive-include mycfopoc *.json
+recursive-include mycfopoc *.md
+recursive-include mycfopoc *.png
+recursive-include mycfopoc *.py
+recursive-include mycfopoc *.svg
+recursive-include mycfopoc *.txt
+recursive-exclude mycfopoc *.pyc

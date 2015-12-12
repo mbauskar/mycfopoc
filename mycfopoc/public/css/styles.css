@@ -1,0 +1,92 @@
+/*.layout-side-section {
+	background-color: #CDBDFC;
+}
+*/
+
+/*.control-label, .collapse-indicator, .section-head > a {
+	color: #262626 !important;
+	font-weight: bold;
+	font-size: 12px;
+	letter-spacing: 0.5px;
+}*/
+
+.grid-overflow-ellipsis,
+.control-label, 
+.collapse-indicator, 
+.section-head > a {
+	color: #1a1a1a !important;
+	font-size: 12px;
+	letter-spacing: 0.5px;
+}
+
+div.collapsed < div.section-head  {
+	background-color: #EEE;
+}
+
+input {
+	color: #262626 !important;
+}
+
+input,
+select, 
+textarea,
+.page-head, 
+.frappe-list,
+.timeline-head,
+.grid-heading-row,
+.grid-form-heading,
+.layout-main-section {
+	border: 1px solid black !important;
+}
+
+.grid-body,
+.timeline-items,
+.visible-section:not(:last-child) {
+	border-bottom: 1px solid black !important;
+	border-right: 1px solid black !important;
+	border-left: 1px solid black !important;
+}
+
+.visible-section:last-child {
+	border-bottom: 1px solid black !important;
+	border-right: 1px solid black !important;
+	border-left: 1px solid black !important;
+}
+
+.list-row-head {
+	border-top: 1px solid black !important;
+	border-bottom: 1px solid black !important;
+}
+
+hr,
+.list-row,
+.module-item,
+.form-inner-toolbar {
+	border-bottom: 1px solid black !important;
+}
+}
+
+#navbar-breadcrumbs > li > a:before {
+	color: #262626 !important;
+}
+
+.grid-add-row {
+	/*
+		button colors,
+		#5050FF,
+		#6666ff,
+		#9999ff
+	 	#b3b3ff,
+	 */
+	/*background-color: #9999ff !important;
+	color: white !important;
+	text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5), 0px 1px 5px rgba(0, 0, 0, 0.5);*/
+}
+
+.btn-default {
+	background-color: #cfdce5;
+}
+
+.btn-default:hover {
+	background-color: #bdcfdb;
+}
