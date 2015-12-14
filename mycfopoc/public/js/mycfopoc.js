@@ -1,6 +1,4 @@
-
 frappe.ui.set_user_background = function(src, selector, style){
-	console.log(["app", src, selector, style])
 	if(!selector) selector = "#page-desktop";
 	if(!style) style = "Fill Screen";
 	if(src) {
