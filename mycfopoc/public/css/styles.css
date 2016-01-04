@@ -1,7 +1,7 @@
-/*.layout-side-section {
-	background-color: #CDBDFC;
+.layout-side-section {
+	background-color: #D3C6FE;
 }
-*/
+
 
 /*.control-label, .collapse-indicator, .section-head > a {
 	color: #262626 !important;
@@ -13,13 +13,13 @@
 .grid-overflow-ellipsis,
 .collapse-indicator, 
 .section-head > a {
-	color: #1a1a1a !important;
+	color: #990419 !important;
 	font-size: 12px;
 	letter-spacing: 0.5px;
 }
 
 .control-label {
-	color: #707f8f !important;
+	color: #325B87 !important;
 	font-size: 12px;
 	letter-spacing: 0.5px;	
 }
@@ -101,3 +101,7 @@ div.form-group > label.control-label {
 div.form-group > div.control-input-wrapper {
 	padding-left: 10px;
 }*/
+
+.shaded-section {
+	background-color: #ccccff !important;
+}
